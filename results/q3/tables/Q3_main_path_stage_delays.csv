@@ -1,0 +1,6 @@
+stage,n_regions,n_global_fdr,regions_used,stage_delay_ms,q25_ms,q75_ms
+Visual thalamus,2,2,"LGd, LP",44.00000000000001,40.00000000000001,48.00000000000001
+Primary visual cortex,1,1,VISp,50.0,50.0,50.0
+Higher visual cortex,2,2,"VISam, VISpm",63.0,62.5,63.5
+Later midbrain / hindbrain,6,5,"PRNc, PRNr, MRN, GRN, SCm, IRN",109.0,108.0,111.5
+Association / action,3,3,"ACAd, CP, MOs",118.00000000000001,110.00000000000001,121.0

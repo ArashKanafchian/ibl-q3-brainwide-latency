@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ibl-q3-brainwide-latency"
+version = "1.0.0"
+description = "Brain-wide visual-response latency analysis for IBL Question 3"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Arash Kanafchian"}]
+dependencies = [
+  "ONE-api",
+  "iblatlas",
+  "ibllib",
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "pyarrow>=14",
+  "scipy>=1.11",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+notebook = [
+  "ipykernel>=6.29",
+  "jupyterlab>=4.1",
+  "nbformat>=5.10",
+  "pytest>=8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

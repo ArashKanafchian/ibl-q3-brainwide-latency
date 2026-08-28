@@ -1,0 +1,3 @@
+stage,n_regions,n_global_fdr,regions_used,stage_delay_ms,q25_ms,q75_ms
+Early visual-midbrain branch,3,1,"SCs, NOT, OP",46.0,45.0,48.0
+Late APN branch,1,1,APN,118.00000000000001,118.00000000000001,118.00000000000001

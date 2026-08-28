@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this analysis, please cite the author and the upstream IBL dataset."
+title: "Brain-Wide Visual Response Latency and Recruitment Order"
+type: software
+authors:
+  - family-names: Kanafchian
+    given-names: Arash
+version: 1.0.0
+date-released: 2026-08-28

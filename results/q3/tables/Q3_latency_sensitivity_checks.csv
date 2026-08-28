@@ -1,0 +1,6 @@
+acronym,A_paper_rule_ms,A_gated_ms,B_no_interpolation_ms,C_threshold50_ms,C_threshold60_ms,paper_latency_ms,gate_cost_ms,interpolation_shift_ms,required_fraction,best_achievable_ms,gap_low_ms,gap_high_ms,paper_inside_gap,paper_offset_from_gap_ms
+LGd,36.00000000000001,36.00000000000001,44.0,32.0,34.0,34.0,0.0,-7.999999999999993,0.56,34.0,35.0,45.0,False,-1.0
+VISp,50.0,50.0,56.0,46.0,48.0,42.0,0.0,-6.0,0.37000000000000005,42.0,45.0,55.0,False,-3.0
+LP,52.00000000000001,52.00000000000001,56.0,48.0,50.0,42.0,0.0,-3.999999999999993,0.30000000000000004,42.0,45.0,55.0,False,-3.0
+VISpm,64.0,64.0,64.0,62.0,62.0,57.0,0.0,0.0,0.16000000000000003,56.0,55.0,65.0,True,0.0
+VISam,62.0,62.0,64.0,56.0,58.0,78.0,0.0,-2.0,0.9500000000000002,74.0,55.0,65.0,False,13.0
